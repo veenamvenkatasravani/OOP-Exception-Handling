@@ -1,0 +1,16 @@
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
+
+    def multiply(self, a, b):
+        return a * b
+
+
+c = Calculator()
+
+print(c.add(10, 5))
+print(c.subtract(10, 5))
+print(c.multiply(10, 5))
